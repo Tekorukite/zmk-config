@@ -110,7 +110,7 @@
                                           &trans        &trans        &trans        &trans        &trans    &trans  &trans    &trans    &trans    &trans  
             >;
 
-            sensor-bindings = <&inc_dec_kp RGB_BRD RGB_DRI &inc_dec_kp BL_DEC BL_INC>;
+            sensor-bindings = <&inc_dec_kp RGB_BRD RGB_BRI &inc_dec_kp BL_DEC BL_INC>;
         };
     };
 };
