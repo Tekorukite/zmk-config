@@ -99,8 +99,8 @@
             // |BTCLR| BT1  | BT2  |  BT3  |  BT4  |  BT5 |                 |       |       |       |       |       |       |
             // |     |      |      |       |       |      |                 |       |       |       |       |       |       |
             // |     |      |      |       |       |      |                 |       |       |       |       |       |       |
-            // |     |      |      |       |       |      |RGB_TOG|  |BL_TOG|RGB_HUI|RGB_SAI|RGB_SPI|RGB_EFF|       |       |
-            //              |      |       |       |      |       |  |      |RGB_HUD|RGB_SAD|RGB_SPD|RGB_EFB|
+            // |     |      |      |       |  RGB_BRI| BL_INC |       |  |      |RGB_HUI|RGB_SAI|RGB_SPI|RGB_EFF|       |       |
+            //              |      |       |  RGB_BRD| BL_DEC |       |  |      |RGB_HUD|RGB_SAD|RGB_SPD|RGB_EFB|
 
             bindings = <
                 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans    &trans    &trans    &trans      &trans   &trans
