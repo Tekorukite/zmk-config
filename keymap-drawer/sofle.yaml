@@ -173,7 +173,7 @@ layers:
   - '&RGB_HUD'
   - '&RGB_SAD'
   - '&RGB_SPD'
-  - '&RGV_EFB'
+  - '&RGB_EFB'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
