@@ -40,8 +40,8 @@
                 , <&macro_tap &kp L>
                 , <&macro_release &kp LGUI>
                 ;
-        }
-    }
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
