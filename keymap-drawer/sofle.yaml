@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&RGB_HUI'
-  - '&RBG_SAI'
+  - '&RGB_SAI'
   - '&RGB_SPI'
   - '&RGB_EFF'
   - {t: ▽, type: trans}
