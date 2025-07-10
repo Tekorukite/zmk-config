@@ -107,7 +107,7 @@
                 &trans      &trans        &trans        &trans        &trans        &trans                          &trans    &trans    &trans    &trans      &trans   &trans
                 &trans      &trans        &trans        &trans        &trans        &trans                          &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF    &trans   &trans
                 &trans      &trans        &trans        &trans        &rgb_ug RGB_BRI        &bl BL_INC        &rgb_ug RGB_TOG  &bl BL_TOG &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &trans   &trans
-                                          &trans        &trans        &rgb_ug RGB_BRd        &bl BL_DEC        &trans    &trans  &trans    &trans    &trans    &trans
+                                          &trans        &trans        &rgb_ug RGB_BRD        &bl BL_DEC        &trans    &trans  &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
