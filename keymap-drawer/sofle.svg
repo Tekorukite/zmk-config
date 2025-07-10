@@ -1183,13 +1183,16 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(252, 147)" class="key trans keypos-28">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(252, 147)" class="key sym_by_sym keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
+<use href="#mdi:led-outline" xlink:href="#mdi:led-outline" x="-9" y="-9" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:led-outline"/>
+<use href="#tabler:brightness-down" xlink:href="#tabler:brightness-down" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph tabler:brightness-down"/>
 </g>
-<g transform="translate(308, 154)" class="key trans keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(308, 154)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_INC</tspan>
+</text>
 </g>
 <g transform="translate(588, 154)" class="key sym_by_sym keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
@@ -1236,13 +1239,13 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(252, 203)" class="key sym_by_sym keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<use href="#mdi:led-outline" xlink:href="#mdi:led-outline" x="-9" y="-9" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:led-outline"/>
-<use href="#tabler:brightness-down" xlink:href="#tabler:brightness-down" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph tabler:brightness-down"/>
+<use href="#mdi:led-on" xlink:href="#mdi:led-on" x="-9" y="-9" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:led-on"/>
+<use href="#tabler:brightness-up" xlink:href="#tabler:brightness-up" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph tabler:brightness-up"/>
 </g>
 <g transform="translate(308, 210)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_INC</tspan>
+<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_DEC</tspan>
 </text>
 </g>
 <g transform="translate(371, 210)" class="key toggle keypos-42">
@@ -1293,16 +1296,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(252, 259)" class="key sym_by_sym keypos-52">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<use href="#mdi:led-on" xlink:href="#mdi:led-on" x="-9" y="-9" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:led-on"/>
-<use href="#tabler:brightness-up" xlink:href="#tabler:brightness-up" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph tabler:brightness-up"/>
+<g transform="translate(252, 259)" class="key trans keypos-52">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(316, 274) rotate(22.5)" class="key held keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_DEC</tspan>
-</text>
 </g>
 <g transform="translate(378, 291) rotate(30.0)" class="key trans keypos-54">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
