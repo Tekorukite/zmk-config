@@ -20,12 +20,12 @@
     behaviors {
         rgb_encoder: rgb_encoder {
             compatible = "zmk,behavior-sensor-rotate";
-            #senor-binding-cells = <0>;
+            #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
         };
         bl_encoder: bl_encoder {
             compatible = "zmk,behavior-sensor-rotate";
-            #senor-binding-cells = <1>;
+            #sensor-binding-cells = <1>;
             bindings = <&rgb_ug BL_DEC>, <&rgb_ug BL_INC>;
         };
 
